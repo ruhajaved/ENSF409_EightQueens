@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author  Ruha Javed <a href="mailto:ruha.javed1@ucalgary.ca">ruha.javed1@ucalgary.ca</a>
+ * @author  Ruha Javed
  * @version 1.2
  * @since   1.0
  */
