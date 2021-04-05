@@ -41,3 +41,4 @@ java EightQueens
 1. Remember that a chessboard is an 8x8 grid.
 2. Also remember that a queen is a chess piece which can attack any piece located in the same row, same column, or in any of the four diagonals.
 3. Currently main houses examples of possible system uses. When the program is run as is here, nothing will happen. Either uncomment the code in main or write custom code in main to exercise system functionality.
+4. This system supports deep cloning of EightQueens objects.
