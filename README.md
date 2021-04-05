@@ -23,7 +23,7 @@ The technologies used include:
 
 To launch the project on your machine, first ensure that you hava a compatible Java compiler installed. 
 
-Then ensure that the file EightQueens.java is in the same directory as your working directory - i.e. either below or at the same level in reference to the current working directory. Also, while this is obvious, do not change the names of the source file.
+Then ensure that the file EightQueens.java is in the same directory as your working directory - i.e. either below or at the same level in reference to the current working directory. Also, while this is obvious, do not change the name of the source file.
 
 Then to compile and run the program through the terminal,
 
