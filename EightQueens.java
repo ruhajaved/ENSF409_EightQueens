@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author  Ruha Javed
+ * @author  Ruha Javed <a href="mailto:ruha.javed1@ucalgary.ca">ruha.javed1@ucalgary.ca</a>
  * @version 1.2
  * @since   1.0
  */
@@ -175,7 +175,7 @@ import java.util.Arrays;
      */
     public boolean setQueens(int queensRemaining)
     {
-        if (queensRemaining < 0) // if given a negative number
+        if ((queensRemaining < 0) || (queensRemaining > 8)) // if given an out of range #
         {
             return false;
         }
@@ -216,15 +216,19 @@ import java.util.Arrays;
 
     // uncomment up to next test to test actual algorithm by placing different queens
     // at different times
-        // boolean result;
+        //  boolean result;
 
-        // EightQueens testObj1 = new EightQueens();
+        //  EightQueens testObj1 = new EightQueens();
         // testObj1.setQueen(0, 0);
         // testObj1.setQueen(1, 4);
         // testObj1.setQueen(7,7);
         // testObj1.setQueen(6,3);
         // result = testObj1.setQueens(4);
         // System.out.println(result);
+
+        //  testObj1 = new EightQueens();
+        //  result = testObj1.setQueens(9);
+        //  System.out.println(result);
 
         // testObj1 = new EightQueens();
         // testObj1.setQueen(6, 6);
